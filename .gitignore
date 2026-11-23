@@ -1,0 +1,26 @@
+# secrets
+.env
+
+# generated report (contains that day's headlines)
+morning_brief.html
+
+# FinBERT weights (~420 MB) - download from Hugging Face, see README
+Models/
+.model-cache/
+
+# local data
+data/
+
+# Python
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+.tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
